@@ -1,0 +1,4 @@
+# Changelog
+
+## [Unreleased]
+- Initialstruktur erstellt
