@@ -13,6 +13,7 @@
 
 ## 3. User Stories
 - Als [Rolle] möchte ich [Funktion], um [Nutzen].
+- …
 
 ## 4. Anforderungen
 ### Funktional
@@ -24,21 +25,27 @@
 - NFR-002 Security:
 - NFR-003 Accessibility:
 
-## 5. Scope MVP
+## 5. UX/UI Anforderungen
+- Navigationsprinzip
+- Hauptflows
+- Fehlermeldungen / Feedback
+- Responsive Breakpoints
+
+## 6. Erfolgskriterien (KPIs)
+- KPI-1:
+- KPI-2:
+
+## 7. Scope MVP
 ### In Scope
 - [ ]
 ### Out of Scope
 - [ ]
 
-## 6. Erfolgskriterien
-- KPI-1:
-- KPI-2:
-
-## 7. Risiken / Annahmen / Offene Fragen
+## 8. Risiken / Annahmen / Offene Fragen
 - Risiken:
 - Annahmen:
 - Offene Fragen:
 
-## 8. Abnahmekriterien
+## 9. Abnahmekriterien
 - [ ] Kriterium 1
 - [ ] Kriterium 2
