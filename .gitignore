@@ -1,0 +1,17 @@
+# Vertrauliche Rohquellen bleiben lokal. Die .gitkeep-Dateien erhalten die Struktur.
+/01_sources/01_raw_inputs/**
+!/01_sources/01_raw_inputs/**/
+!/01_sources/01_raw_inputs/**/.gitkeep
+
+# Lokale Konfiguration und Zugangsdaten
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Betriebssystem- und Editor-Dateien
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -16,12 +16,15 @@ Dieses Repository führt eine dauerhafte, repository-lokale Wissensbasis für Me
 | Zweck | Repository-Pfad |
 |---|---|
 | Einstieg und Projektkontext | `00_readme/` |
-| Quellen und Herkunft | `01_sources/` |
+| Quellen, Herkunft und dauerhafte externe Verweise | `01_sources/` |
+| Notion-, Figma- und Tool-Verweise | `01_sources/02_references/00_link-register.md` |
 | Dauerhafte Fach- und Technikdokumentation | `02_docs/` |
 | Architekturentscheidungen | `02_docs/04_architecture_adr/` |
 | Dokumentationsregeln, Changelog, Risiken | `12_meta/` |
 
 Neue System- und Flow-Dokumentationen werden unter `02_docs/` in passend benannten Unterordnern abgelegt. Der Source-Log bleibt in `01_sources/03_source_register/01_source-log.md`.
+
+Rohquellen und ungeprüfte Link-Exporte verbleiben lokal unter `01_sources/01_raw_inputs/`; sie werden nicht versioniert. Dauerhafte Notion-, Figma- und externe Tool-Verweise werden ausschließlich im Link-Register gepflegt.
 
 ## Documentation Types
 
@@ -52,7 +55,7 @@ Dokumentation wird im selben Change aktualisiert, wenn sich Verhalten, Verantwor
 ## Agent Workflow
 
 1. `AGENTS.md` und `00_readme/` lesen, sofern vorhanden.
-2. Relevante Dokumentation unter `02_docs/`, den Source-Log und `12_meta/` prüfen.
+2. Relevante Dokumentation unter `02_docs/`, den Source-Log, das Link-Register und `12_meta/` prüfen.
 3. Implementierungsdetails im Code nachvollziehen.
 4. Änderung umsetzen.
 5. Betroffene Dokumentation, Source Maps, ADRs und Risiken aktualisieren.

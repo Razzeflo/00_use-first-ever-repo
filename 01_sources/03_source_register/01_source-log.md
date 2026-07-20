@@ -1,15 +1,9 @@
-# Source Log
+# Source-Log
 
-## 2026-07-19 – WhatsApp Briefing
-- Quelle: WhatsApp Chat Export (Kunde X)
-- Ursprung: Max Mustermann
-- Zweck: Erstbriefing Landingpage
-- Abgelegt: `01_sources/01_raw_inputs/01_whatsapp/2026-07-19_briefing.txt`
-- Status: raw
+Dieses Log dokumentiert Herkunft, Zweck und zulässige Referenz von Quellen. Vertrauliche Originaldateien verbleiben lokal in `01_sources/01_raw_inputs/` und werden nicht versioniert.
 
-## 2026-07-20 – Design-Referenzen
-- Quelle: 5 externe Webseiten (Linksammlung)
-- Ursprung: internes Research
-- Zweck: UI-Inspiration Hero/CTA
-- Abgelegt: `01_sources/01_raw_inputs/05_links_exports/2026-07-20_references.md`
-- Status: geprüft
+| Datum | Quelle | Ursprung / Eigentümer | Zweck | Lokaler Ablageort oder Referenz | Zugriffsstatus | Status |
+|---|---|---|---|---|---|---|
+| `[YYYY-MM-DD]` | `[z. B. Meeting-Protokoll]` | `[ ]` | `[ ]` | `[lokaler Pfad oder Link-Register-Eintrag]` | `[intern / vertraulich / öffentlich]` | `[raw / geprüft / freigegeben]` |
+
+Für dauerhafte Notion-, Figma- und Tool-Links ist das [Link-Register](../02_references/00_link-register.md) maßgeblich.
