@@ -1,7 +1,7 @@
 # Projektübersicht: [Projektname]
 
 | Feld | Inhalt |
-|---|---|
+| --- | --- |
 | Projekt-ID | `[projekt-id]` |
 | Status | `Draft \| Aktiv \| Pausiert \| Abgeschlossen` |
 | Startdatum | `[YYYY-MM-DD]` |
@@ -24,7 +24,7 @@
 ## Beteiligte
 
 | Name / Organisation | Rolle | Kontakt / Link |
-|---|---|---|
+| --- | --- | --- |
 | `[ ]` | `[ ]` | `[ ]` |
 
 ## Zentrale Verweise
@@ -36,6 +36,6 @@
 
 ---
 
-**Herausgeber:** Flow-alerta.cab · Florian Deinzer · Wasenmühle 1 · 90579 Langenzenn<br>
-**Qualifikation:** Mediengestalter Digital & Print (IHK) · zertifizierter KI-Consultant<br>
-**Leitsatz:** ⌬ Work in Flow-gress | der Beweis, dass Anarchie nur Ordnung ist ◎
+**Herausgeber:** Flow-alerta.cab · Florian Deinzer · Wasenmühle 1 · 90579 Langenzenn
+**Qualifikation:** Mediengestalter Digital & Print (IHK) · zertifizierter KI-Consultant
+<p align="center">⌬ Work in Flow-gress | der Beweis, dass Anarchie nur Ordnung ist ◎</p>
