@@ -4,7 +4,7 @@ Gilt für das gesamte Projekt. Zusätzlich gelten die Regeln des Firmen-Space (�
 
 ## Pflichtablauf
 
-1. Vor jeder Änderung lesen: [`00_README/`](00_README/), [`Dokumentationssystem.md`](Dokumentationssystem.md), relevante Inhalte aus [`02_Dokumentation/`](02_Dokumentation/), das [Quellenprotokoll](01_Quellen/02_Quellenverzeichnis/Quellenprotokoll.md), das [Linkverzeichnis](13_Arbeitsumgebung/00_Linkverzeichnis.md) und [`12_Projektsteuerung/`](12_Projektsteuerung/).
+1. Vor jeder Änderung lesen: [`00_README/`](00_README/), [`02_Dokumentation/Dokumentationssystem.md`](02_Dokumentation/Dokumentationssystem.md), relevante Inhalte aus [`02_Dokumentation/`](02_Dokumentation/), das [Quellenprotokoll](01_Quellen/02_Quellenverzeichnis/Quellenprotokoll.md), das [Linkverzeichnis](13_Arbeitsumgebung/00_Linkverzeichnis.md) und [`12_Projektsteuerung/`](12_Projektsteuerung/).
 2. Die tatsächliche Implementierung im Code nachvollziehen; Dokumentation erklärt Verhalten und ersetzt keine Codeprüfung.
 3. Bei Änderungen an Verhalten, Schnittstellen, Daten, Konfiguration, Sicherheit, Tests oder Annahmen die betroffene Dokumentation im selben Schritt aktualisieren.
 4. System- und Ablaufdokumentationen mit Quellenverweisen (Source Map) pflegen; dauerhafte Entscheidungen als Architekturentscheidung festhalten.

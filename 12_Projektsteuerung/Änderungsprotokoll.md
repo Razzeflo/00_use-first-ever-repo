@@ -8,6 +8,10 @@ Jede Arbeit am Projekt wird hier festgehalten (Menschen und Agenten), damit jede
 
 ## Vorlage (Struktur)
 
+### [2.0.1] – 2026-10-09
+- `Dokumentationssystem.md` von der Wurzel nach `02_Dokumentation/` verschoben, alle Verweise angepasst.
+- `.gitattributes` für einheitliche Zeilenenden ergänzt.
+
 ### [2.0.0] – 2026-10-09
 - Vorlage auf deutsche, ausgeschriebene Ordnernamen mit Umlauten umgestellt; Nummern 00 bis 12 beibehalten, Bereich 13 Arbeitsumgebung ergänzt.
 - Neue Unterordner: Transkripte und Kickoff, Medien nach Art und Exportformat, Inhalte und Texte, Suchmaschinenoptimierung und KI-Sichtbarkeit, Recht und Datenschutz, Projektplan und Abnahme.

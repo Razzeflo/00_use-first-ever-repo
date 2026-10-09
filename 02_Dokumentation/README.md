@@ -8,6 +8,8 @@ Alle fachlichen und technischen Dokumente des Projekts.
 
 ## Gehört hierher
 
+- [Dokumentationssystem.md](Dokumentationssystem.md): die verbindliche Anweisung, wie in diesem Projekt dokumentiert wird (für Menschen und KI-Agenten)
+
 - Anforderungen, Konzepte, Prüfberichte, Übergabe.
 
 ## Gehört nicht hierher

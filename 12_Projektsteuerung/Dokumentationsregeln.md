@@ -1,6 +1,6 @@
 # Dokumentationsregeln
 
-Die vollständige, kanonische Richtlinie ist [`Dokumentationssystem.md`](../Dokumentationssystem.md). Dieses Dokument enthält nur die kurz prüfbaren Projektregeln.
+Die vollständige, kanonische Richtlinie ist [`Dokumentationssystem.md`](../02_Dokumentation/Dokumentationssystem.md). Dieses Dokument enthält nur die kurz prüfbaren Projektregeln.
 
 ## Verbindliche Regeln
 

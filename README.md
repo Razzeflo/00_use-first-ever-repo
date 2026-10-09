@@ -45,7 +45,7 @@ Die Nummerierung bleibt in allen Projekten gleich. Nicht benötigte Bereiche ble
 
 ## Dokumentationsstandard
 
-Die verbindliche Richtlinie ist [`Dokumentationssystem.md`](Dokumentationssystem.md). Sie gilt für Menschen und KI-Agenten. Kurz:
+Die verbindliche Richtlinie ist [`02_Dokumentation/Dokumentationssystem.md`](02_Dokumentation/Dokumentationssystem.md). Sie gilt für Menschen und KI-Agenten. Kurz:
 
 - Dokumentation wird zusammen mit jeder relevanten Änderung an Verhalten, Schnittstellen, Daten, Konfiguration oder Sicherheit aktualisiert.
 - System- und Ablaufdokumentationen enden mit Quellenverweisen (Source Map).

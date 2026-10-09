@@ -1,0 +1,10 @@
+# Einheitliche Zeilenenden (Windows und macOS/Linux)
+* text=auto eol=lf
+*.ps1 text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.avif binary
+*.pdf binary
+*.zip binary

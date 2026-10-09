@@ -1,12 +1,12 @@
 # Copilot-Anweisungen für dieses Projekt
 
-Diese Datei ist kurz gehalten. Maßgeblich sind [`AGENTS.md`](../AGENTS.md) und [`Dokumentationssystem.md`](../Dokumentationssystem.md).
+Diese Datei ist kurz gehalten. Maßgeblich sind [`AGENTS.md`](../AGENTS.md) und [`Dokumentationssystem.md`](../02_Dokumentation/Dokumentationssystem.md).
 
 ## Dokumentation zuerst
 
 Vor jeder Änderung:
 
-1. Relevante Dokumentation lesen: [`00_README/`](../00_README/), [`Dokumentationssystem.md`](../Dokumentationssystem.md), betroffene Dateien aus [`02_Dokumentation/`](../02_Dokumentation/), das [Quellenprotokoll](../01_Quellen/02_Quellenverzeichnis/Quellenprotokoll.md), das [Linkverzeichnis](../13_Arbeitsumgebung/00_Linkverzeichnis.md) und [`12_Projektsteuerung/`](../12_Projektsteuerung/).
+1. Relevante Dokumentation lesen: [`00_README/`](../00_README/), [`Dokumentationssystem.md`](../02_Dokumentation/Dokumentationssystem.md), betroffene Dateien aus [`02_Dokumentation/`](../02_Dokumentation/), das [Quellenprotokoll](../01_Quellen/02_Quellenverzeichnis/Quellenprotokoll.md), das [Linkverzeichnis](../13_Arbeitsumgebung/00_Linkverzeichnis.md) und [`12_Projektsteuerung/`](../12_Projektsteuerung/).
 2. Die tatsächliche Implementierung im Code nachvollziehen. Dokumentation erklärt Verhalten, ersetzt aber nicht die Codeprüfung.
 3. Nach jeder Änderung an Verhalten, Schnittstellen, Daten, Konfiguration, Sicherheit oder Tests die betroffene Dokumentation im selben Schritt aktualisieren.
 
