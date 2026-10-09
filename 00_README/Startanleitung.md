@@ -1,6 +1,6 @@
 # Startanleitung für ein neues Website- oder Anwendungsprojekt
 
-1. Projekt anlegen: im Firmen-Space mit `Kunden.ps1 anlegen` oder auf GitHub über **Use this template**. Projektnamen festlegen.
+1. Projekt anlegen: im Firmen-Space mit `01_Kunde_anlegen.cmd` (Doppelklick) oder auf GitHub über **Use this template**. Projektnamen festlegen.
 2. [`Projektsteckbrief.md`](Projektsteckbrief.md) und [`Projektübersicht.md`](Projektübersicht.md) vollständig ausfüllen, Repository-URL ergänzen und die vorgesehenen Bereiche ankreuzen.
 3. Alle Platzhalter `[ … ]` in den benötigten Vorlagen ersetzen; nicht benötigte Vorlagen bleiben als Referenz erhalten und werden am Ende bereinigt.
 4. Dauerhafte Notion-, Figma-, GitHub- und Werkzeug-Links im [Linkverzeichnis](../13_Arbeitsumgebung/00_Linkverzeichnis.md) eintragen.
