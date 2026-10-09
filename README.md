@@ -12,7 +12,7 @@ Der Stand mit englischen Ordnernamen (Strukturversion 1.1.0) bleibt im Tag `v1-e
 
 ## Neues Projekt starten
 
-1. **Im Firmen-Space:** Kundenordner mit `Skripte/Kundenordner_anlegen.ps1` anlegen. Die Website-Vorlage liegt dann unter `03_Umsetzung/02_Website_und_Anwendungen/`.
+1. **Im Firmen-Space:** Kundenordner mit `02_Skripte/Kunden.ps1 anlegen` anlegen. Die Website-Vorlage liegt dann unter `03_Umsetzung/02_Website_und_Anwendungen/`.
    **Auf GitHub:** alternativ **Use this template** wählen; das neue Projekt erhält Dateien und Ordner, aber keine gemeinsame Git-Historie.
 2. [`00_README/Projektsteckbrief.md`](00_README/Projektsteckbrief.md) und [`00_README/Projektübersicht.md`](00_README/Projektübersicht.md) ausfüllen.
 3. [`00_README/Startanleitung.md`](00_README/Startanleitung.md) vollständig abarbeiten.
