@@ -1,79 +1,33 @@
-# Copilot-Anweisungen für use-first-ever-repo
+# Copilot-Anweisungen für dieses Projekt
 
-## Dokumentations-First Ansatz
+Diese Datei ist kurz gehalten. Maßgeblich sind [`AGENTS.md`](../AGENTS.md) und [`Dokumentationssystem.md`](../Dokumentationssystem.md).
 
-Dieses Repository folgt einem dokumentationsorientierten Ansatz. **Vor jeder Änderung**:
+## Dokumentation zuerst
 
-1. Relevante Dokumentation lesen: [`00_readme/`](../00_readme/), [`repo-local-documentation-system.md`](../repo-local-documentation-system.md), betroffene Dateien aus [`02_docs/`](../02_docs/), [`01_sources/03_source_register/01_source-log.md`](../01_sources/03_source_register/01_source-log.md), [`01_sources/02_references/00_link-register.md`](../01_sources/02_references/00_link-register.md), und [`12_meta/`](../12_meta/).
-2. Die tatsächliche Implementierung im Code nachvollziehen — Dokumentation erklärt Verhalten, ersetzt aber nicht die Codeprüfung.
-3. Nach jeder Änderung an Verhalten, Schnittstellen, Daten, Konfiguration, Sicherheit oder Tests die betroffene Dokumentation im selben Change aktualisieren.
+Vor jeder Änderung:
 
-## Struktur des Repositories
+1. Relevante Dokumentation lesen: [`00_README/`](../00_README/), [`Dokumentationssystem.md`](../Dokumentationssystem.md), betroffene Dateien aus [`02_Dokumentation/`](../02_Dokumentation/), das [Quellenprotokoll](../01_Quellen/02_Quellenverzeichnis/Quellenprotokoll.md), das [Linkverzeichnis](../13_Arbeitsumgebung/00_Linkverzeichnis.md) und [`12_Projektsteuerung/`](../12_Projektsteuerung/).
+2. Die tatsächliche Implementierung im Code nachvollziehen. Dokumentation erklärt Verhalten, ersetzt aber nicht die Codeprüfung.
+3. Nach jeder Änderung an Verhalten, Schnittstellen, Daten, Konfiguration, Sicherheit oder Tests die betroffene Dokumentation im selben Schritt aktualisieren.
 
-| Ordner | Zweck |
-|---|---|
-| `00_readme/` | Projektkontext und Quickstart |
-| `01_sources/` | Rohquellen (lokal), Link-Register, Source-Log |
-| `02_docs/` | PRD, Lastenheft, Architektur (ADRs), System/Flow-Dokumentation, API, QA, Handover |
-| `03_ai_work/` | Agent-Briefs, Skills, Prompts, Runs, Reviews |
-| `04_design/` | Wireframes, UI, Exporte, Handover |
-| `05_assets/` | Roh-, optimiert, freigegeben |
-| `06_frontend/` | App, Komponenten, Styles, Public, Tests |
-| `07_backend/` | APIs, Services, Domäne, Data Access, Worker/Jobs, Tests |
-| `08_data/` | Schemata, Seeds, Migrations, Exporte |
-| `09_infra/` | Umgebungen, Container, CI/CD, IaC, Monitoring |
-| `10_scripts/` | Setup, Dev, Build, Release, Maintenance |
-| `11_archive/` | Abgelöste Artefakte |
-| `12_meta/` | Changelog, Entscheidungen, Risiken, TODOs, Versionierung |
+## Struktur
 
-Die Nummerierung und Hauptordner bleiben erhalten; neue Inhalte werden im passenden bestehenden Bereich abgelegt.
+Die Ordner `00_README` bis `13_Arbeitsumgebung` sind in der [`README.md`](../README.md) beschrieben. Nummerierung und Hauptordner bleiben erhalten; neue Inhalte werden im passenden Bereich abgelegt. Jeder Ordner hat eine `README.md`, die sagt, was hineingehört.
 
 ## Dokumentationstypen
 
-### System Documentation
-Beschreibt einen zusammenhängenden Bereich (Modul, Service, Feature). Behandelt Zweck, Grenzen, Daten/Zustand, Schnittstellen, Abhängigkeiten, Invarianten, Fehlerbehandlung, Sicherheit, Tests und **Source Map** zu wichtigen Dateien.
+- **Systemdokumentation** (`02_Dokumentation/08_Systeme/`): Zweck, Grenzen, Daten, Schnittstellen, Abhängigkeiten, Fehlerbehandlung, Sicherheit, Tests und Quellenverweise (Source Map).
+- **Ablaufdokumentation** (`02_Dokumentation/09_Abläufe/`): Auslöser, Beteiligte, Schritte, Zustandsänderungen, Fehlerverhalten, Abhängigkeiten, Tests und Quellenverweise.
+- **Architekturentscheidungen** (`02_Dokumentation/04_Architekturentscheidungen/`): dauerhafte Entscheidungen mit Abwägung. Nur akzeptierte gelten als Leitlinie; Abgelöstes bekommt eine neue Entscheidung, die alte wird auf „Abgelöst“ gesetzt.
 
-### Flow Documentation
-Beschreibt wichtige Abläufe über mehrere Systeme. Enthält Trigger, Beteiligte, Schritte, Zustandsänderungen, Erfolgs-/Fehlerverhalten, externe Abhängigkeiten, Observability, Tests und **Source Map**.
+## Stil
 
-### Architecture Decision Records (ADRs)
-Unter `02_docs/04_architecture_adr/` abgelegt. Dokumentieren dauerhafte technische Entscheidungen und Trade-offs. Nur `Accepted`-ADRs sind aktuelle Leitlinie. Abgelöste Entscheidungen erhalten eine neue ADR mit Status `Superseded`, die alte wird nicht überschrieben.
-
-## Dokumentationsstil
-
-- Klar, direkt, stabiles Markdown.
-- Verhalten, Verantwortung, Grenzen, Invarianten und Fallstricke erklären — nicht Codezeilen nacherzählen.
-- Relative Links zu verwandten Dokumenten und wichtigen Quelldateien verwenden.
-- Unsicherheiten ausdrücklich markieren, nicht raten.
-- Jede System- und Flow-Dokumentation mit einer **Source Map** abschließen.
-
-## Quellen und externe Verweise
-
-- **Rohquellen** (`01_sources/01_raw_inputs/`): Lokal, nicht versioniert, nur `.gitkeep`
-- **Link-Register** (`01_sources/02_references/00_link-register.md`): Dauerhafte Notion-, Figma-, Tool-Verweise
-- **Source-Log** (`01_sources/03_source_register/01_source-log.md`): Herkunft und zulässige Referenz für sensible Daten
-
-Keine sensiblen Rohquellen committen. Stattdessen Herkunft und zulässige Referenz im Source-Log dokumentieren. Dauerhafte externe Links gehören ins Link-Register, nicht in Roh-Exporte.
-
-## Workflow für Agents
-
-1. `AGENTS.md` und `00_readme/` lesen.
-2. Relevante Dokumentation unter `02_docs/`, Source-Log, Link-Register und `12_meta/` prüfen.
-3. Implementierungsdetails im Code nachvollziehen.
-4. Änderung umsetzen.
-5. Betroffene Dokumentation, Source Maps, ADRs und Risiken aktualisieren.
-6. Vor Abschluss prüfen: Markdown-Links korrekt, Dateipfade gültig, Code und Dokumentation stimmen überein.
-
-## Grundprinzipien
-
-- Die Dokumentation ist die primäre Wissensquelle für Verhalten und Abläufe. Code ist die Implementierungswahrheit.
-- Jede wesentliche Verhaltens-, Schnittstellen-, Daten-, Konfigurations- oder Sicherheitsänderung erfordert eine zeitgleiche Dokumentationsanpassung.
-- Architekturentscheidungen werden als ADRs dokumentiert, nicht als Kommentare im Code vergraben.
-- Unsicherheiten und Risiken werden in `12_meta/` sichtbar dokumentiert.
+- Deutsch, Du-Form, klar und direkt, stabiles Markdown, Umlaute verwenden, Begriffe ausschreiben.
+- Verhalten, Verantwortung, Grenzen und Fallstricke erklären, nicht Codezeilen nacherzählen.
+- Relative Links verwenden. Unsicherheiten ausdrücklich markieren, nicht raten.
 
 <!-- mermaid-ai-skills:start -->
-## Mermaid Diagrams
+## Mermaid-Diagramme
 
-When the user asks to create, edit, or visualize a diagram, follow the
-instructions in `.github/instructions/mermaid.instructions.md`.
+Wenn Diagramme erstellt, bearbeitet oder visualisiert werden sollen, gelten die Anweisungen in `.github/instructions/mermaid.instructions.md`.
 <!-- mermaid-ai-skills:end -->

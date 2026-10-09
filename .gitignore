@@ -1,7 +1,8 @@
-# Vertrauliche Rohquellen bleiben lokal. Die .gitkeep-Dateien erhalten die Struktur.
-/01_sources/01_raw_inputs/**
-!/01_sources/01_raw_inputs/**/
-!/01_sources/01_raw_inputs/**/.gitkeep
+# Vertrauliche Rohdaten bleiben lokal. Die README.md-Dateien erhalten die Struktur.
+/01_Quellen/01_Rohdaten_lokal/**
+!/01_Quellen/01_Rohdaten_lokal/**/
+!/01_Quellen/01_Rohdaten_lokal/**/README.md
+!/01_Quellen/01_Rohdaten_lokal/README.md
 
 # Lokale Konfiguration und Zugangsdaten
 .env
@@ -10,8 +11,23 @@
 *.pem
 *.key
 
+# Abhängigkeiten und Ausgabeordner
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.astro/
+.cache/
+coverage/
+*.log
+
 # Betriebssystem- und Editor-Dateien
 .DS_Store
 Thumbs.db
+desktop.ini
 .idea/
 .vscode/
+
+# Hinweis: Sehr große Medien (Videos, Rohbilder) besser mit Git LFS verwalten
+# oder außerhalb von Git in 05_Medien ablegen und im Quellenprotokoll vermerken.
