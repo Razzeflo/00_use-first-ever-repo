@@ -2,7 +2,7 @@
 
 - Version: 2.0.1
 - Stand: 2026-10-09
-- Quelle der Struktur: `Struktur_Website.txt` im Firmen-Space-Repository (`00_Start_und_Verwaltung/01_Firmen-Space_Repo/Struktur/`)
+- Quelle der Struktur: `Struktur_Website.txt` im Firmen-Space-Repository (`00_Start_und_Verwaltung/01_Firmen-Space_Repo/01_Struktur/`)
 
 ## Änderungen
 
